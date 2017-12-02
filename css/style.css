@@ -1,0 +1,43 @@
+body{
+  margin: 0 auto;
+}
+
+#mesa {
+    width: 1140px;
+    margin: 0 auto;
+}
+#mesa .memotest_cartas {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    width: 83px;
+    height: 93px;
+    display: block;
+    cursor: pointer;
+}
+#mesa .memotest_fin_juego {
+    font-size: 16px;
+}
+#mesa .memotest_jugar_de_nuevo {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+#mesa .memotest_jugar_de_nuevo {
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+.title{
+  text-align: center;
+}
+
+.right{
+  margin: 0 auto;
+  height: 133px;
+  width: 133px;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link type="text/css" href="css/style.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+  <script type="text/javascript" src="js/memotest.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#mesa").memotest('imagenes/blanco.png', new Array(
+      'imagenes/arg.png',
+      'imagenes/bol.png',
+      'imagenes/bra.png',
+      'imagenes/ecu.png',
+      'imagenes/chi.png',
+      'imagenes/col.png',
+      'imagenes/par.png',
+      'imagenes/amarillo.png',
+      'imagenes/rosa.png',
+      'imagenes/verde.png',
+    ));
+  });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="title">
+        <h1>Memotest Buni</h1>
+        <h3>Encuentra las figuras iguales, en el menor tiempo posible</h3>
+      </div>
+      <div id="mesa"></div>
+      <div class="clear"></div>
+      <img src="imagenes/hola.png " alt="" class="right">
+    </div>
+  </div>
+</body>
+</html>
